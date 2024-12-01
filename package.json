@@ -1,0 +1,36 @@
+{
+    "name": "@pricempire/api",
+    "version": "1.0.1",
+    "description": "Official Node.js client for the Pricempire API",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "build": "tsc",
+        "test": "jest",
+        "prepare": "npm run build"
+    },
+    "keywords": [
+        "pricempire",
+        "cs2",
+        "steam",
+        "market",
+        "prices",
+        "api"
+    ],
+    "author": "Pricempire",
+    "license": "MIT",
+    "dependencies": {
+        "axios": "^1.6.7",
+        "qs": "^6.11.2"
+    },
+    "devDependencies": {
+        "@types/node": "^20.11.24",
+        "@types/qs": "^6.9.12",
+        "typescript": "^5.3.3",
+        "jest": "^29.7.0",
+        "@types/jest": "^29.5.12"
+    },
+    "publishConfig": {
+        "access": "public"
+    }
+}
