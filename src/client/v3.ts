@@ -3,7 +3,7 @@ import { V3Options, V3InventoryOptions } from '../types';
 
 export class V3Client extends BaseClient {
     constructor(apiKey: string, baseURL?: string) {
-        super(apiKey, baseURL || 'https://pricempire.com/api-data/v3');
+        super(apiKey, baseURL || 'https://api.pricempire.com/v3/');
     }
 
     /**
