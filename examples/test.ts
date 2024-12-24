@@ -1,4 +1,4 @@
-import PricempireClient from '@pricempire/api';
+import { PricempireClient } from "@pricempire/api";
 
 const client = new PricempireClient({
     apiKey: 'YOUR_API_KEY'
