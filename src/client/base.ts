@@ -15,10 +15,9 @@ export class BaseClient {
             baseURL,
             headers: {
                 'Authorization': `Bearer ${apiKey}`,
-                'x-foo': apiKey
             },
             paramsSerializer: (params) => qs.stringify(params, {
-                arrayFormat: 'brackets',
+                arrayFormat: 'comma',
                 encode: false
             })
         });

@@ -76,7 +76,7 @@ For advanced features like real-time price updates and enhanced analytics, consi
 
 ### Feature Requests
 
-Submit feature requests and suggestions through our [Nolt platform](https://pricempire.nolt.io)
+Submit feature requests and suggestions through our [Nolt platform](https://feedback.pricempire.com)
 
 ## Development
 

@@ -1,6 +1,6 @@
 {
     "name": "@pricempire/api",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Official Node.js client for the Pricempire API",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
